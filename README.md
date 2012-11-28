@@ -2,6 +2,7 @@ DDUpload(拖拽并上传文件)
 ========
 核心代码
 ============
+<pre>
 //支持新一代浏览器Chrome/Safari/FF/IE10
 if(typeof FormData != "undefined"){
 	new UploadFileByDragDropTita({
@@ -20,3 +21,4 @@ if(typeof FormData != "undefined"){
 		"requestDoneCallback" : function(res){}//请求完成后回调方法
 	}, window);
 }
+</pre>
